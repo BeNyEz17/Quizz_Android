@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/nv1"
+        android:layout_width="180dp"
+        android:layout_height="82dp"
+        android:background="#4DEF9A9A"
+        android:backgroundTint="#F6F6F6"
+        android:backgroundTintMode="add"
+        android:text="Niveau 1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:iconTint="#F3F3F3"
+        android:translationX="88dp"
+        android:translationY="398dp"
+     />
+
+    <Button
+        android:id="@+id/nv2"
+        android:layout_width="180dp"
+        android:layout_height="82dp"
+        android:background="#4DEF9A9A"
+        android:backgroundTint="#FFFDFD"
+        android:text="Niveau 2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:translationX="88dp"
+        android:translationY="505dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
